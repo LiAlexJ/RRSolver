@@ -1,0 +1,11 @@
+{
+  "numMoves": 1,
+  "moves": [
+    {
+      "color": "red",
+      "initPos": [ 0, 0 ],
+      "newPos": [ 0, 5 ],
+      "direction": "right"
+    }
+  ]
+}
