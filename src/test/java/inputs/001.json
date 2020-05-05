@@ -1,28 +1,46 @@
 {
-  "currentRobot": {
-    "color": "red",
-    "pos": [ 0, 0 ]
+  "targetRobot": {
+    "color": "RED",
+    "position": {
+      "x": 0,
+      "y": 0
+    }
   },
-  "robotStarts": [
+  "robots": [
     {
-      "color": "red",
-      "pos": [ 0, 0 ]
+      "color": "RED",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
     },
     {
-      "color": "green",
-      "pos": [ 0, 1 ]
+      "color": "GREEN",
+      "position": {
+        "x": 0,
+        "y": 1
+      }
     },
     {
-      "color": "blue",
-      "pos": [ 0, 2 ]
+      "color": "BLUE",
+      "position": {
+        "x": 0,
+        "y": 2
+      }
     },
     {
-      "color": "yellow",
-      "pos": [ 0, 3 ]
+      "color": "YELLOW",
+      "position": {
+        "x": 0,
+        "y": 3
+      }
     },
     {
-      "color": "black",
-      "pos": [ 0, 4 ]
+      "color": "BLACK",
+      "position": {
+        "x": 0,
+        "y": 4
+      }
     }
   ],
   "board": [
@@ -45,21 +63,30 @@
     [ 9, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 4, 0, 1, 0, 0, 9 ],
     [ 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 ]
   ],
-  "targets": [
+  "tokens": [
     {
-      "color": "red",
-      "shape": "star",
-      "pos": [ 0, 5 ]
+      "color": "RED",
+      "shape": "STAR",
+      "position": {
+        "x": 0,
+        "y": 5
+      }
     },
     {
-      "color": "blue",
-      "shape": "circle3",
-      "pos": [ 1, 5 ]
+      "color": "BLUE",
+      "shape": "CIRCLE",
+      "position": {
+        "x": 1,
+        "y": 5
+      }
     }
   ],
-  "target": {
-    "color": "red",
-    "shape": "star",
-    "pos": [ 0, 5 ]
+  "targetToken": {
+    "color": "RED",
+    "shape": "STAR",
+    "position": {
+      "x": 0,
+      "y": 5
+    }
   }
 }

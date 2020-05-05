@@ -2,10 +2,16 @@
   "numMoves": 1,
   "moves": [
     {
-      "color": "red",
-      "initPos": [ 0, 0 ],
-      "newPos": [ 0, 5 ],
-      "direction": "right"
+      "color": "RED",
+      "initPos": {
+        "x": 0,
+        "y": 0
+      },
+      "newPos": {
+        "x": 0,
+        "y": 5
+      },
+      "direction": "RIGHT"
     }
   ]
 }
